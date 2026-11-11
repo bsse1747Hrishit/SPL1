@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run UCL Simulator",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\ucl_sim.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "preLaunchTask": "Build UCL Simulator"
+        }
+    ]
+}
